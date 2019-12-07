@@ -7,6 +7,12 @@
     <title>LiveMDL</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+<link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet">
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+<link rel="shortcut icon" href="https://www.madonnadellelacrime.it/app/wp-content/uploads/2018/08/LOGO.png?x43845" />
 </head>
 
 <body>
@@ -15,9 +21,8 @@
             <div class="row no-gutters">
                 <div class="col-md-12">
                     <nav class="navbar navbar-dark navbar-expand-md bg-dark shadow-lg">
-                        <div class="container-fluid"><a class="navbar-brand" href="#"><br></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                            <div class="collapse navbar-collapse"
-                                id="navcol-1">
+                        <div class="container-fluid"><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                            <div class="collapse navbar-collapse" id="navcol-1">
                                 <ul class="nav navbar-nav ml-auto">
                                     <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html"><strong>HOME</strong> - Vedi le Dirette</a></li>
                                     <li class="nav-item" role="presentation"><a class="nav-link" href="http://www.madonnadellelacrime.it/">Vai al sito del Santuario</a></li>
@@ -29,22 +34,14 @@
             </div>
         </div>
     </div>
-    <div class="jumbotron">
+    <div class="jumbotron text-white shadow-lg" style="background-image: url(&quot;https://www.madonnadellelacrime.it/app/wp-content/uploads/2018/08/altare_4.jpg&quot;);background-position: center;background-size: auto;color: rgb(255,255,255);">
         <h1><strong>Vedi le dirette dal Santuario di Siracusa</strong></h1>
         <p>La Vita liturgica della Basilica in diretta 24/7 dall'altare maggiore della Basilica, dalla Cappella del Santissimo in Basilica e dall'altare maggiore della Cripta.</p>
     </div>
     <div style="margin-top: 50px;margin-bottom: 50px;">
         <div class="container">
             <div class="row">
-                <div class="col-md-4"><head>
-  <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet">
-
-  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-</head>
-
-<body>
-  <video id='my-video' class='video-js' autoplay controls preload='auto' width='100%'
+                <div class="col-md-4">  <video id='my-video' class='video-js' autoplay controls preload='auto' width='100%'
   poster='' data-setup='{"fluid": true}'>
     <source src='https://live.mariatvcdn.com/mariatvcdn/madonnadellelacrimealtare.stream/index.m3u8' type='application/x-mpegURL'>
     <p class='vjs-no-js'>
@@ -54,18 +51,9 @@
   </video>
 
   <script src='https://vjs.zencdn.net/7.5.5/video.js'></script>
-</body>
                     <h2><strong>Basilica</strong></h2>
                 </div>
-                <div class="col-md-4"><head>
-  <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet">
-
-  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-</head>
-
-<body>
-  <video id='my-video' class='video-js' autoplay controls preload='auto' width='100%'
+                <div class="col-md-4"><video id='my-video' class='video-js' autoplay controls preload='auto' width='100%'
   poster='' data-setup='{"fluid": true}'>
     <source src='https://live.mariatvcdn.com/mariatvcdn/madonnadellelacrime.stream/index.m3u8' type='application/x-mpegURL'>
     <p class='vjs-no-js'>
@@ -75,18 +63,9 @@
   </video>
 
   <script src='https://vjs.zencdn.net/7.5.5/video.js'></script>
-</body>
                     <h2><strong>Cappella del Santissimo</strong></h2>
                 </div>
-                <div class="col-md-4"><head>
-  <link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet">
-
-  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-</head>
-
-<body>
-  <video id='my-video' class='video-js' autoplay controls preload='auto' width='100%'
+                <div class="col-md-4">  <video id='my-video' class='video-js' autoplay controls preload='auto' width='100%'
   poster='' data-setup='{"fluid": true}'>
     <source src='https://live.mariatvcdn.com/mariatvcdn/madonnadellelacrimecripta.stream/index.m3u8' type='application/x-mpegURL'>
     <p class='vjs-no-js'>
@@ -96,7 +75,6 @@
   </video>
 
   <script src='https://vjs.zencdn.net/7.5.5/video.js'></script>
-</body>
                     <h2><strong>Cripta</strong></h2>
                 </div>
             </div>
