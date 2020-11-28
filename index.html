@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="assets/css/styles.css">
-<link href="https://vjs.zencdn.net/7.5.5/video-js.css" rel="stylesheet">
-
-  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-
+<link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 <link rel="shortcut icon" href="https://www.madonnadellelacrime.it/app/wp-content/uploads/2018/08/LOGO.png?x43845" />
 </head>
 
@@ -30,6 +27,7 @@
                             <div class="collapse navbar-collapse" id="navcol-1">
                                 <ul class="nav navbar-nav ml-auto">
                                     <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html"><strong>HOME</strong> - Vedi le Dirette</a></li>
+                                    <li class="nav-item" role="presentation"><a class="nav-link" href="nuovomessale.html"><strong>Novità del nuovo Messale Romano</strong></a></li>
                                     <li class="nav-item" role="presentation"><a class="nav-link" href="http://www.madonnadellelacrime.it/">Vai al sito del Santuario</a></li>
                                 </ul>
                             </div>
@@ -50,7 +48,7 @@
                 </div>
                 <div class="col">
                     <h3 class="text-center">Sante Messe <strong>FESTIVE</strong></h3>
-                    <h5 class="text-center">8:00 - 10:00 - 12:00 - 17:30<br>trasmesse dalla Basilica<br><br>19:00 - 20:00<br>sul sagrato (non trasmesse)</h5>
+                    <h5 class="text-center">8:00 - 10:00 - 12:00 - 17:30 - 19:00 - 20:00<br>trasmesse dalla Basilica</h5>
                 </div>
             </div>
         </div>
@@ -58,28 +56,54 @@
     <div style="margin-top: 50px;margin-bottom: 50px;">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-xl-6">  <video id='my-video' class='video-js' autoplay controls preload='auto' width='100%'
-  poster='' data-setup='{"fluid": true}'>
-    <source src='https://live.mariatvcdn.com/mariatvcdn/madonnadellelacrimealtare.stream/index.m3u8' type='application/x-mpegURL'>
-    <p class='vjs-no-js'>
-      To view this video please enable JavaScript, and consider upgrading to a web browser that
-      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+                <div class="col-md-6 col-xl-6"><video
+    id="my-video"
+    class="video-js vjs-fluid vjs-big-play-centered"
+    controls
+    autoplay
+    preload="auto"
+    width="100%"
+    height="100%"
+    poster=""
+    data-setup="{}"
+  >
+    <source src="https://live.mariatvcdn.com/mariatvcdn/madonnadellelacrimealtare.stream/index.m3u8" type="application/x-mpegURL" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
     </p>
+
   </video>
 
-  <script src='https://vjs.zencdn.net/7.5.5/video.js'></script>
+  <script src="https://vjs.zencdn.net/7.10.2/video.js"></script>
                     <h2><strong>Basilica</strong></h2>
                 </div>
-                <div class="col-md-6 col-xl-6"><video id='my-video' class='video-js' autoplay controls preload='auto' width='100%'
-  poster='' data-setup='{"fluid": true}'>
-    <source src='https://live.mariatvcdn.com/mariatvcdn/madonnadellelacrime.stream/index.m3u8' type='application/x-mpegURL'>
-    <p class='vjs-no-js'>
-      To view this video please enable JavaScript, and consider upgrading to a web browser that
-      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+                <div class="col-md-6 col-xl-6"><video
+    id="my-video"
+    class="video-js vjs-fluid vjs-big-play-centered"
+    controls
+    autoplay
+    preload="auto"
+    width="100%"
+    height="100%"
+    poster=""
+    data-setup="{}"
+  >
+    <source src="https://live.mariatvcdn.com/mariatvcdn/madonnadellelacrime.stream/index.m3u8" type="application/x-mpegURL" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
     </p>
+
   </video>
 
-  <script src='https://vjs.zencdn.net/7.5.5/video.js'></script>
+  <script src="https://vjs.zencdn.net/7.10.2/video.js"></script>
                     <h2><strong>Cappella del Santissimo</strong></h2>
                 </div>
             </div>
