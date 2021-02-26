@@ -1,5 +1,5 @@
 .jumbotron.text-white.shadow-lg {
-  text-shadow: 0px 0px 5px #000000;
+  text-shadow: 0px 0px 5px #00305e;
   border-radius: 0;
 }
 
@@ -9,5 +9,26 @@
 
 body {
   font-family: 'Ubuntu';
+}
+
+.footer-dark {
+  background-color: #00305e !important;
+}
+
+.navbar-dark {
+  background-color: #00305e !important;
+}
+
+body {
+  color: #00305e;
+}
+
+.video-js .vjs-control-bar {
+  background-color: #00305eb0 !important;
+}
+
+#footerlink {
+  color: white !important;
+  font-weight: bold;
 }
 
